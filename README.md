@@ -13,7 +13,7 @@ No need any prerequisites
 ### Installing
 
 ```
-npm i imdb-crawler
+npm i hi-imdb-crawler
 ```
 
 ## Options 
