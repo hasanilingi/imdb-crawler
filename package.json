@@ -1,0 +1,32 @@
+{
+  "name": "hi-imdb-crawler",
+  "version": "0.1.2",
+  "description": "A node library to gets Movie and Tv Series  info from IMDB and returns collected data as a json",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanilingi/imdb-crawler.git"
+  },
+  "keywords": [
+    "node",
+    "crawler",
+    "imdb"
+  ],
+  "author": "Hasan İlingi <hasanilingi@gmail.com> (http://hasanilingi.com)",
+  "license": "https://www.gnu.org/licenses/gpl-3.0.html",
+  "bugs": {
+    "url": "https://github.com/hasanilingi/imdb-crawler/issues"
+  },
+  "homepage": "https://github.com/hasanilingi/imdb-crawler#readme",
+  "dependencies": {
+    "crawler": "^1.1.4",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
