@@ -1,6 +1,6 @@
 # IMDB Crawler
 
-A node library to gets Movie and Tv Series  info from IMDB and returns collected data as a json
+A node library to get Movie and Tv Series  info from IMDB and returns collected data as a json
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-No need any prerequisites
+Nodejs, Npm
 
 ### Installing
 
@@ -198,7 +198,7 @@ These options are against imdb site updates. So you can basicly change
 which tag to use for getting the content. The extractor will try to extract 
 the content from the options you passed.
 
-to change an default options you should pass your own options as params
+To change default options you should pass your own options as a param
 while creating new instance of ImdbCrawler 
 ```javascript
 const ImdbCrawler = require('hi-imdb-crawler');
@@ -262,7 +262,7 @@ imdbCrawler.getMovie(function(data) {
 
 ### to get an series
 
-There is an option to get series with or without episodes.
+You can get series with or without episodes.
 If you want to get with episodes basicly pass <code>true</code> param after callback function in <code>getSeries</code>
 
 #### without episodes
